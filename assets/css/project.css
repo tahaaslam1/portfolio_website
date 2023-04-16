@@ -1,0 +1,47 @@
+/* 
+.project {
+    border: 2px solid black;
+    width: 100vw;
+      background-color: #f9f9f9;
+      padding: 50px;
+      text-align: center;
+    }
+.project ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project li {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 40px;
+    text-align: left;
+    width: calc(33.33% - 40px);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .project li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  } */
+
+  .card-title{
+    /* display: none ; */
+  }
+  .pp{
+    /* display: hidden; */
+    visibility: hidden;
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+  }
+  .centeredDiv {
+    width: 50%;
+    margin: 0 auto;
+  }

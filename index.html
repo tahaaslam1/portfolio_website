@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/project.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Taha</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#educations" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link">Project</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Taha</span><br />
+            Software Engineer
+          </h1>
+
+          <a href="#" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/taha-aslam"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/taha.aslam_/"
+            class="home__social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/tahaaslam1" class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="50"
+                y="60"
+                href="assets/img/profile-pic1.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/profile-pic.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Taha</h2>
+            <p class="about__text">
+              Highly competent software engineer and currently pursuing a degree
+              in Computer Science from FAST-NUCES. I have deep experience in the
+              areas of Flutter,Firebase, NodeJs,ExpressJs, MongoDb and I am
+              constantly practicing new ways to solve old problems. I know and
+              honor the relevance and importance of a human connection when
+              working with each other so I make sure that connection is set up
+              to establish trust between both parties. We do not have to act
+              like robots because we are working online and the human connection
+              opens a relationship where communication flows freely.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="educations">
+        <h2 class="section-title">Education</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="education">
+            <!-- <h1>Education</h1> -->
+            <h1>Courses</h1>
+            <ul>
+              <li>
+                <h3>Maths</h3>
+              </li>
+              <li>
+                <h2>Physics</h2>
+              </li>
+              <li>
+                <h2>Chemistry</h2>
+              </li>
+              <li>
+                <h2>Urdu</h2>
+              </li>
+              <li>
+                <h2>English</h2>
+              </li>
+              <li>
+                <h2>Programming Fundamentals</h2>
+              </li>
+              <li>
+                <h2>Calculus and Analytical Geometry</h2>
+              </li>
+              <li>
+                <h2>Islamic and Religious Studies</h2>
+              </li>
+              <li>
+                <h2>Digital Logic Design</h2>
+              </li>
+              <li>
+                <h2>Differential Equations (Cal II)</h2>
+              </li>
+              <li>
+                <h2>Object Oriented Programming</h2>
+              </li>
+              <li>
+                <h2>Comp. Organization and Assembly Lang</h2>
+              </li>
+              <li>
+                <h2>Linear Algebra</h2>
+              </li>
+              <li>
+                <h2>Data Structures</h2>
+              </li>
+              <li>
+                <h2>Theory of Automata</h2>
+              </li>
+              <li>
+                <h2>Probability and Statistics</h2>
+              </li>
+              <li>
+                <h2>Database Systems</h2>
+              </li>
+              <li>
+                <h2>Operating Systems</h2>
+              </li>
+              <li>
+                <h2>Design and Analysis of Algorithms</h2>
+              </li>
+              <li>
+                <h2>Multivariable Calculus</h2>
+              </li>
+              <li>
+                <h2>Parallel and Distributed Computing</h2>
+              </li>
+              <li>
+                <h2>Agile Software Project Management</h2>
+              </li>
+              <li>
+                <h2>DevOps</h2>
+              </li>
+              <!-- Add more courses as needed -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Project =====-->
+      <section class="work section" id="project">
+        <h2 class="section-title">Projects</h2>
+        <div class="container">
+          <div class="centeredDiv">
+            <form>
+              <!-- <input type="text" id="searchInput" placeholder="Search..." /> -->
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Find Projects...."
+              />
+            </form>
+          </div>
+          <ul id="itemList" class="projects_ul">
+            <div class="row mt-5">
+              <div class="col">
+                <li>
+                  <div class="card" style="width: 18rem">
+                    <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Leet9 Dashboard</h5>
+                      <p class="pp">...</p>
+                      <p class="card-text">
+                        Designing a back-end server on NodeJS for dApp.
+                        Integrating Meta-mask wallet with Web 3.0 games to store
+                        user NFTs and give rewards based on game stats.
+                      </p>
+                      <a href="https://leet9.com/" class="btn btn-primary"
+                        >View</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col">
+                <li>
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">Ascension</h5>
+                      <p class="pp">...</p>
+                      <p class="card-text">
+                        Application for buying and selling traditional offline
+                        businesses.
+                      </p>
+                      <a
+                        href="https://github.com/mareebbaig/ascension_backend"
+                        class="btn btn-primary"
+                        >View</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col">
+                <li>
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">World Currency Converter</h5>
+                      <p class="pp">huzaifah</p>
+                      <p class="card-text">
+                        Architected and developed an online currency
+                        convertor/viewing application enabling users to browse
+                        currency rates for over 50 currencies. The project is
+                        focused on utilizing a public API to retrieve currency
+                        exchange rates and caching the results in Redis.
+                      </p>
+                      <a
+                        href="https://github.com/tahaaslam1/world_currency_app_backend"
+                        class="btn btn-primary"
+                        >View</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col">
+                <li>
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">Doxa</h5>
+                      <p class="pp">react</p>
+                      <p class="card-text">
+                        Developed a Flutter application for professional
+                        networking and career development just like LinkedIn.
+                      </p>
+                      <a
+                        href="https://github.com/doxa-valsium/doxa-mobile-app"
+                        class="btn btn-primary"
+                        >View</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col">
+                <li>
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">FastAPI Boiler Plate</h5>
+                      <p class="pp">react</p>
+                      <p class="card-text">
+                        Boilerplate code for python’s web framework FastApi.
+                        Included PostgreSQL using the famous SQLAlchemy ORM and
+                        DBAPI=asyncpg that helped me utilize the ASGI.
+                      </p>
+                      <a
+                        href="https://github.com/tahaaslam1/fast-api-boiler"
+                        class="btn btn-primary"
+                        >View</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col mt-5">
+                <li>
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">GoldZoid</h5>
+                      <p class="pp">html</p>
+                      <p class="card-text">
+                        Developed a Flutter application that solves problems for
+                        a local goldsmiths inventory
+                      </p>
+                      <a
+                        href="https://github.com/tahaaslam1/gold_market_app"
+                        class="btn btn-primary"
+                        >View</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Taha</p>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/taha-aslam" class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/taha.aslam_/" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://github.com/tahaaslam1" class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169; NicheDevs. All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+<script>
+  const searchInput = document.getElementById("exampleFormControlInput1");
+  const itemList = document.getElementById("itemList");
+  const items = itemList.getElementsByTagName("li");
+
+  searchInput.addEventListener("keyup", function () {
+    const searchText = searchInput.value.toLowerCase();
+
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i];
+      const itemText = item.innerText.toLowerCase();
+
+      if (itemText.includes(searchText)) {
+        item.style.display = "block";
+      } else {
+        item.style.display = "none";
+      }
+    }
+  });
+</script>

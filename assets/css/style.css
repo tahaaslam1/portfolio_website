@@ -1,0 +1,55 @@
+.education {
+  /* border: 2px solid black; */
+  width: 100vw;
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .education ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .education li {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 40px;
+    text-align: left;
+    width: calc(33.33% - 40px);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .education li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .education li {
+      width: calc(50% - 40px);
+    }
+  }
